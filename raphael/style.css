@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh; 
+
+}
+span{
+    font-size: 100px;
+}
