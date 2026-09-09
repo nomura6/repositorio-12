@@ -1,44 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
 }
-
+#sobrenome {
+    color: aqua;
+}
 header {
     display: flex;
-  
-    background-color: rgb(69, 42, 165);
-    padding: 15px;
+    background-color: burlywood;
+    padding: 15px 30px;
     align-items: center;
-
     justify-content: space-between;
+    height: 5vh;
 }
-
-nav {
-    display: flex;
-    
-    gap: 10px;
-}
-
 a {
-    color: white;
+    text-decoration: none;
+    color: black;
 }
-
 main {
-    display: flex;
-    background-color: blueviolet;
+    height: 80vh;
 }
-section {
+.banner {
     display: flex;
-flex-direction: row;
+    background-color: rgb(255, 0, 0);
+height: 20vh;
 gap: 20px;
-justify-content: space-evenly;
-}
-.subtitulo {
-    display: flex;
-    padding: 15px
-}
-
-footer {
-    width: 5vh;
-    background-color: brown;
+padding: 15px 30px;
 }
