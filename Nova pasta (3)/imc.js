@@ -33,3 +33,5 @@ function gerarRelatorio(classificacao){
 console.log("Voce esta " + classificacao)
 }
 alert(gerarRelatorio(classificacao))
+//arrow function
+//const nome da variavel = (parametro) => ação
